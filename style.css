@@ -4,6 +4,7 @@
     height: 800px;
     background-color: aqua;
     background-image: url(head.png);
+    background-repeat: no-repeat;
 }
 .content{
     text-align: right;
@@ -12,7 +13,45 @@
     height: 230px;
 }
 .content> h1{
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 45px;
     font-family: 'Work Sans';
     /* font-family: 'Courier New', Courier, monospace; */
+}
+.content p{
+    /* font-size: 16px; */
+    font-weight: 400;
+
+    /* font-family: 'work Sans'; */
+}
+.content button{
+    color: white;
+    background-color: #F15B22;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 100px;
+}
+.img2 img{
+    /* margin: 233px; */
+    width: 100%;
+    margin-left: 40px;
+}
+.part2 .content2{
+    /* padding: 200px 100px 0px 0px; */
+    margin-left: 40px;
+    width: 50%;
+}
+.part2 .content2 li{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
 }
