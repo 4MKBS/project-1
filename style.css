@@ -93,3 +93,39 @@
 .part3 .main-ele div h4,p{
     margin: 5px;
 }
+.section-4{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(hand.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 220px;
+    width: 900px;
+    height: 180px;
+    border-radius: 5px;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-image: url(hand.png);
+    z-index: A;
+    background-repeat: no-repeat;
+    position: absolute;
+   
+    left: 280px;
+     */
+}
+.section-4 .s4container{
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.4rem;
+}
+ .section-4 .s4container button{
+    color: #F15B22;
+    background-color: white;
+    width: 90px;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
