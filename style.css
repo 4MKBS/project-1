@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .head{
     display: flex;
     justify-content: end;
@@ -123,6 +130,101 @@
     width: 90px;
     margin: 0px;
     padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    margin-top: 50px;
+    padding: 130px 200px;
+    color: white;
+    background-color: black;
+
+}
+.future{
+    /* background-color: rgba(94, 232, 25, 0.714); */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    width: 50%;
+    padding: 10px;
+}
+.future h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.future p{
+    font-weight: 100;
+    font-size: small;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.future .email , .phone{
+    /* background-color: #F15B22; */
+    font-style: italic;
+}
+
+.future a {
+    
+    /* border-radius: 50 */
+    text-decoration: none;
+    margin-right: 10px;
+    /* background-color: white */
+
+}
+  .future i {
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    padding: 8px;
+    background: white;
+    font-size: 26px;
+  }
+
+
+.future .fa-facebook{
+    color: #1DA1F2;
+}
+.future .fa-twitter{
+    color: #1DA1F2;
+    
+}
+.future .fa-youtube{
+    color: #FF0000;
+    
+}
+.subs{
+    /* background-color: #F15B22; */
+    /* width: 50%; */
+    /* padding: 10px; */
+    
+}
+.subs input{
+    display: block;
+    color: wheat;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    border-radius: 3px;
+    margin-top: 10px;
+    outline: none;
+    padding: 8px 10px;
+    
+}
+input::placeholder{
+    color: white;
+}
+.subs button{
+    color: #F15B22;
+    background-color: white;
+    display: inline-block;
+    outline: none;
+    margin-top: 15px;
+    padding: 10px  20px;
     border-radius: 5px;
     outline: none;
     border: none;
